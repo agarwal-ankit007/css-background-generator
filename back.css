@@ -1,0 +1,64 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    letter-spacing: 0.5em;
+    background: linear-gradient(to right,#ff0000,#ffff00);
+    height: 100%;
+    
+}
+
+h1
+{
+    font: 600 3.5em 'Raleway',sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 100%;
+}
+
+h2
+{
+    font: 900 1em 'Raleway',sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+h3
+{
+    letter-spacing: 0.01em;
+    word-spacing: 0.5em;
+}
+
+.orient
+{
+    height: 30px;
+    width: 100px;
+    transform: translateY(-4px);
+    padding-left: 15px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 50px;
+    color: white;
+    background: transparent;
+}
+
+.orient .option
+{
+    color: black;
+    background: transparent;
+}
+
+.orient:focus
+{
+    outline: none;
+}
